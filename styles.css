@@ -1,0 +1,264 @@
+.navbar
+{
+    padding:15px 0;
+}
+
+.hero-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    filter: brightness(70%);
+}
+
+.option
+{
+    color: white;
+    font-size: 18px;
+    margin: 0 20px 0;
+}
+
+.social
+{
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    
+}
+
+
+.nav-link:hover
+{
+    color: rgb(2, 210, 137);
+    
+}
+
+.logo
+{
+    width: 15%;
+}
+
+.toggleBtn
+{
+    color: black;
+}
+
+
+.abc
+{
+    text-align: center;
+}
+
+.welcome
+{
+    margin-top: 12%;
+    margin-bottom: 1%;
+    text-align: center;
+    color: white;
+}
+
+.I_Am
+{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.blink {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker
+{
+    50%
+    {
+        opacity: 0;
+    }
+}
+
+.location
+{
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.homeBtn
+{
+    background-color: transparent;
+    color: rgb(2, 210, 137);
+    border: 2px solid rgb(2, 210, 137);
+    width: 150px;
+    height: 40px;
+}
+
+.homeBtn:hover
+{
+    color: whitesmoke;
+    background-color: rgb(2, 210, 137);
+}
+
+#About
+{
+    margin-top: 14%;
+    background-color: rgb(33, 37, 41);
+    padding-bottom: 5%;
+}
+
+.AboutTitle
+{
+    color: rgb(47, 49, 51);
+    font-size: 7rem;
+    text-align: center;
+    font-weight: 600;   
+}
+
+
+
+.aboutMe
+{
+    background-color: rgb(2, 210, 137);
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.aboutMe:hover
+{
+    color: rgb(33, 37, 41);
+}
+
+#Services
+{
+    background-color: rgb(52, 58, 64);
+    padding-bottom: 5%;
+}
+
+.ServicesTitle
+{
+    color: rgb(65, 72, 80);
+    font-size: 7rem;
+    text-align: center;
+    font-weight: 600;   
+}
+
+.Title
+{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -115px;
+}
+
+.ul
+{
+    
+    color: rgb(2, 210, 137);
+    position: relative;
+    top: -135px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: -50px;
+}
+
+#Resume
+{
+    background-color: rgb(33, 37, 41);
+    padding-bottom: 5%;
+}
+
+.SummaryTitle
+{
+    color: rgb(47, 49, 51);
+    font-size: 7rem;
+    text-align: center;
+    font-weight: 600;   
+}
+
+.Timeperiod
+{
+    background-color: rgb(2, 210, 137);;
+    color: rgb(0, 0, 0);
+    width: 115px;
+    font-size: 0.75rem;
+    border-radius: 7px;
+    padding: 2px 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.education
+{
+    background-color: rgb(19, 21, 23);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.resumeBtn
+{
+    background-color: transparent;
+    border: 2px solid gray;
+    color: gray;
+    width: 170px;
+    height: 40px;
+    margin-top: 60px;
+}
+
+.resumeBtn:hover
+{
+    background-color: gray;
+    color: rgb(19, 21, 23);
+}
+
+
+#contact
+{
+    background-color: rgb(52, 58, 64);
+    padding-bottom: 3%;
+}
+
+.ContactTitle
+{
+    color: rgb(65, 72, 80);
+    font-size: 7rem;
+    text-align: center;
+    font-weight: 600;   
+}
+
+.input
+{
+    border: 0px;
+    height: 50px;
+}
+
+.message
+{
+    border: 0px;
+    height: 180px;
+    resize: none;
+}
+
+.messageBtn
+{
+    background-color: rgb(2, 210, 137);
+    color: white;
+    width: 160px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    opacity: 0;
+  }
